@@ -1,0 +1,471 @@
+priors:
+  - name: g4-bu-LCSR+LQCD+UB
+    descriptions:
+      - { parameter: 'B->pi::a^f+_0@G2026', min: +2.00e-02,  max: +2.70e-02,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f+_1@G2026', min: -3.65e-02,  max: -4.39e-03,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f+_2@G2026', min: -1.47e-01,  max: +2.42e-02,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f+_3@G2026', min: -1.24e-01,  max: +2.76e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f+_4@G2026', min: -9.15e-01,  max: +7.46e-01,  type: 'uniform' }
+      # f0_0 parameter determined by identity f0(0) = f+(0)
+      - { parameter: 'B->pi::a^f0_1@G2026', min: -3.50e-01,  max: -1.12e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f0_2@G2026', min: -3.72e-01,  max: +2.36e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f0_3@G2026', min: -1.34e+00,  max: +1.21e+00,  type: 'uniform' }
+      - { parameter: 'B->pi::a^f0_4@G2026', min: -1.46e+00,  max: +1.48e+00,  type: 'uniform' }
+      - { parameter: 'B->pi::a^fT_0@G2026', min: -6.06e-03,  max: +9.80e-02,  type: 'uniform' }
+      - { parameter: 'B->pi::a^fT_1@G2026', min: -4.00e-01,  max: +3.59e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^fT_2@G2026', min: -9.38e-01,  max: +7.68e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^fT_3@G2026', min: -1.04e+00,  max: +9.32e-01,  type: 'uniform' }
+      - { parameter: 'B->pi::a^fT_4@G2026', min: -1.14e+00,  max: +1.05e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f+_0@G2026', min: +2.45e-02,  max: +3.21e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f+_1@G2026', min: -8.82e-02,  max: -5.42e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f+_2@G2026', min: +2.31e-03,  max: +1.59e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f+_3@G2026', min: -1.78e-01,  max: +1.10e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f+_4@G2026', min: -7.13e-01,  max: +2.03e-01,  type: 'uniform' }
+      # f0_0 parameter determined by identity f0(0) = f+(0)
+      - { parameter: 'B_s->K::a^f0_1@G2026', min: -3.25e-02,  max: +3.20e-03,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f0_2@G2026', min: -9.53e-02,  max: +9.35e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f0_3@G2026', min: -2.56e-01,  max: +2.86e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^f0_4@G2026', min: -1.53e+00,  max: +9.92e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^fT_0@G2026', min: +1.40e-02,  max: +1.04e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^fT_1@G2026', min: -4.63e-01,  max: +2.98e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^fT_2@G2026', min: -9.37e-01,  max: +8.35e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^fT_3@G2026', min: -1.09e+00,  max: +1.01e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K::a^fT_4@G2026', min: -1.16e+00,  max: +1.13e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^V_0@G2026', min: +6.03e-02,  max: +9.43e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^V_1@G2026', min: -4.15e-01,  max: -7.66e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^V_2@G2026', min: -1.49e-01,  max: +9.26e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^V_3@G2026', min: -1.38e+00,  max: +1.02e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^V_4@G2026', min: -1.37e+00,  max: +1.31e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A0_0@G2026', min: +9.61e-02,  max: +1.22e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A0_1@G2026', min: -4.44e-01,  max: -2.39e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A0_2@G2026', min: -4.50e-02,  max: +7.10e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A0_3@G2026', min: -8.80e-01,  max: +1.55e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A0_4@G2026', min: -1.41e+00,  max: +1.52e+00,  type: 'uniform' }
+      # A1_0 parameter determined by identity A_12(sm) = (mB^2 - mV^2) / (8 mB mV) A_1(sm)
+      - { parameter: 'B_s->K^*::a^A1_1@G2026', min: -7.21e-02,  max: -1.06e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A1_2@G2026', min: -1.09e-01,  max: +1.77e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A1_3@G2026', min: -6.18e-01,  max: +9.12e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A1_4@G2026', min: -1.71e+00,  max: +1.56e+00,  type: 'uniform' }
+      # A12_0 parameter determined by identity A_12(0) = (mB^2 - mV^2) / (8 mB mV) A_0(0)
+      - { parameter: 'B_s->K^*::a^A12_1@G2026', min: -2.22e-02,  max: +2.18e-03,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A12_2@G2026', min: -6.48e-02,  max: +8.48e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A12_3@G2026', min: -4.87e-01,  max: +3.36e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^A12_4@G2026', min: -1.59e+00,  max: +1.55e+00,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T1_0@G2026', min: +4.44e-02,  max: +5.85e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T1_1@G2026', min: -2.48e-01,  max: -1.23e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T1_2@G2026', min: +2.79e-02,  max: +4.54e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T1_3@G2026', min: -8.37e-01,  max: +7.81e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T1_4@G2026', min: -1.20e+00,  max: +1.11e+00,  type: 'uniform' }
+      # T2_0 parameter determined by identity T_1(0) = T_2(0)
+      - { parameter: 'B_s->K^*::a^T2_1@G2026', min: -4.83e-02,  max: -1.56e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T2_2@G2026', min: -4.79e-02,  max: +1.22e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T2_3@G2026', min: -3.96e-01,  max: +5.18e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T2_4@G2026', min: -1.64e+00,  max: +1.29e+00,  type: 'uniform' }
+      # T23_0 parameter determined by identity T_23(sm) = (mB + mV)^2 / (4 mB mV) T_2(sm)
+      - { parameter: 'B_s->K^*::a^T23_1@G2026', min: -3.93e-02,  max: +1.37e-02,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T23_2@G2026', min: -7.70e-02,  max: +1.87e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T23_3@G2026', min: -1.06e+00,  max: +3.77e-01,  type: 'uniform' }
+      - { parameter: 'B_s->K^*::a^T23_4@G2026', min: -1.56e+00,  max: +1.51e+00,  type: 'uniform' }
+
+
+observables:
+  # Compatibility aliases for the pre-G2026 saturation names
+  "B->pi::Saturation[A0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[0^-_A]@G2026>>"
+  "B->pi::Saturation[V0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[0^+_V]@G2026>>"
+  "B->pi::Saturation[V1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[1^-_V]@G2026>>"
+  "B->pi::Saturation[A1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[1^+_A]@G2026>>"
+  "B->pi::Saturation[T1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[1^-_T]@G2026>>"
+  "B->pi::Saturation[AT1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[1^+_T5]@G2026>>"
+  "B_s->K::Saturation[A0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[0^-_A]@G2026>>"
+  "B_s->K::Saturation[V0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[0^+_V]@G2026>>"
+  "B_s->K::Saturation[V1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[1^-_V]@G2026>>"
+  "B_s->K::Saturation[A1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[1^+_A]@G2026>>"
+  "B_s->K::Saturation[T1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[1^-_T]@G2026>>"
+  "B_s->K::Saturation[AT1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K::Saturation[1^+_T5]@G2026>>"
+  "B_s->K^*::Saturation[A0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[0^-_A]@G2026>>"
+  "B_s->K^*::Saturation[V0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[0^+_V]@G2026>>"
+  "B_s->K^*::Saturation[V1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[1^-_V]@G2026>>"
+  "B_s->K^*::Saturation[A1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[1^+_A]@G2026>>"
+  "B_s->K^*::Saturation[T1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[1^-_T]@G2026>>"
+  "B_s->K^*::Saturation[AT1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B_s->K^*::Saturation[1^+_T5]@G2026>>"
+  "b->u::Saturation[A0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[A0]@G>> + <<B_s->K::Saturation[A0]@G>> + <<B_s->K^*::Saturation[A0]@G>>"
+  "b->u::Saturation[V0]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[V0]@G>> + <<B_s->K::Saturation[V0]@G>> + <<B_s->K^*::Saturation[V0]@G>>"
+  "b->u::Saturation[V1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[V1]@G>> + <<B_s->K::Saturation[V1]@G>> + <<B_s->K^*::Saturation[V1]@G>>"
+  "b->u::Saturation[A1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[A1]@G>> + <<B_s->K::Saturation[A1]@G>> + <<B_s->K^*::Saturation[A1]@G>>"
+  "b->u::Saturation[T1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[T1]@G>> + <<B_s->K::Saturation[T1]@G>> + <<B_s->K^*::Saturation[T1]@G>>"
+  "b->u::Saturation[AT1]@G":
+    latex: r"ToDo"
+    unit: '1'
+    options: {}
+    expression: "<<B->pi::Saturation[AT1]@G>> + <<B_s->K::Saturation[AT1]@G>> + <<B_s->K^*::Saturation[AT1]@G>>"
+
+
+likelihoods:
+  - name: Bpi-LCSR
+    constraints:
+      - B->pi::form-factors[f_+,f_0,f_T]@LMvD:2021A
+      - B->pi::FormFactors[f_+,f_0,f_T]@GKvD:2018A
+
+  - name: Bpi-LQCD
+    constraints:
+      - B->pi::f_0+f_+@FLAG:2024A
+
+  - name: BsK-LCSR
+    constraints:
+      - B_s->K::FormFactorsLCSR@BGMT:2025A
+      - B_s->K::form-factors[f_+,f_0,f_T]@BvDV:2023A
+
+  - name: BsK-LQCD
+    constraints:
+      - B_s->K::f_0+f_+@FLAG:2024A
+
+  - name: BsKstar-LCSR
+    constraints:
+      - B_s->K^*::FormFactorsLCSR@BGMT:2025A
+      - B_s->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A
+
+  - name: BsKstar-LQCD
+    constraints:
+      - B_s->K^*::V+A_0+A_1+A_12@HLMW:2015A
+      - B_s->K^*::T_1+T_2+T_23@HLMW:2015A
+
+  - name: bu-unitarity-bounds
+    manual_constraints:
+      'b->u::MesonicBound[A0]@G':
+        type: UniformBound
+        observables:
+            - 'B_s->K^*::Saturation[A0]@G'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.05
+      'b->u::MesonicBound[V0]@G':
+        type: UniformBound
+        observables:
+            - 'B->pi::Saturation[V0]@G'
+            - 'B_s->K::Saturation[V0]@G'
+        kinematics: [ {}, {} ]
+        options: [ {}, {} ]
+        bound: 1.0
+        uncertainty: 0.05
+      'b->u::MesonicBound[V1]@G':
+        type: UniformBound
+        observables:
+            - 'B->pi::Saturation[V1]@G'
+            - 'B_s->K::Saturation[V1]@G'
+            - 'B_s->K^*::Saturation[V1]@G'
+        kinematics: [ {}, {}, {} ]
+        options: [ {}, {}, {} ]
+        bound: 1.0
+        uncertainty: 0.05
+      'b->u::MesonicBound[A1]@G':
+        type: UniformBound
+        observables:
+            - 'B_s->K^*::Saturation[A1]@G'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.05
+      'b->u::MesonicBound[T1]@G':
+        type: UniformBound
+        observables:
+            - 'B->pi::Saturation[T1]@G'
+            - 'B_s->K::Saturation[T1]@G'
+            - 'B_s->K^*::Saturation[T1]@G'
+        kinematics: [ {}, {}, {} ]
+        options: [ {}, {}, {} ]
+        bound: 1.0
+        uncertainty: 0.05
+      'b->u::MesonicBound[AT1]@G':
+        type: UniformBound
+        observables:
+            - 'B_s->K^*::Saturation[AT1]@G'
+        kinematics: [ {} ]
+        options: [ {} ]
+        bound: 1.0
+        uncertainty: 0.05
+
+
+comm_fixed_params: &comm_fixed_params
+  "mass::B_d@BSZ2015":          5.279 # see for used masses /eos/form-factors/mesonic-processes.hh
+  "mass::B_s@BSZ2015":          5.367
+  "mass::pi^0@BSZ2015":         0.135
+  "mass::K_d@BSZ2015":          0.494
+  "mass::K_d^*@BSZ2015":        0.892
+  "mass::B_u,A^0[1]@G2026":     5.279
+  "mass::B_u,V^0[1]@G2026":     5.642 # fake pole
+  "mass::B_u,V^1[1]@G2026":     5.325
+  "mass::B_u,A^1[1]@G2026":     5.726
+  "mass::B_d,A^0[1]@G2026":     5.279
+  "mass::B_d,V^0[1]@G2026":     5.642 # fake pole
+  "mass::B_d,V^1[1]@G2026":     5.325
+  "mass::B_d,A^1[1]@G2026":     5.726
+  "B->pi::Q2@G2026":            0.0
+  "B->pi::eta@G2026":           1.5
+  "B->pi::t0_v@G2026":         20.170454
+  "B->pi::tp_v@G2026":         29.311396
+  "B_s->K::Q2@G2026":           0.0
+  "B_s->K::eta@G2026":          1.0
+  "B_s->K::t0_v@G2026":        16.539327
+  "B_s->K::tp_v@G2026":        29.311396
+  "B_s->K^*::Q2@G2026":         0.0
+  "B_s->K^*::eta@G2026":        1.0
+  "B_s->K^*::t0_v@G2026":      12.813550
+  "B_s->K^*::t0_a@G2026":      12.731331
+  "B_s->K^*::tp_v@G2026":      29.311396
+  "B_s->K^*::tp_a@G2026":      29.811600
+  "B->pi::tchi_V0@G2026":       0.0055285498
+  "B->pi::tchi_V1@G2026":       0.0005826598
+  "B->pi::tchi_T1@G2026":       0.00041208157
+  "B_s->K::tchi_V0@G2026":      0.0055285498
+  "B_s->K::tchi_V1@G2026":      0.0005826598
+  "B_s->K::tchi_T1@G2026":      0.00041208157
+  "B_s->K^*::tchi_A0@G2026":    0.016034476
+  "B_s->K^*::tchi_V1@G2026":    0.0005826598
+  "B_s->K^*::tchi_A1@G2026":    0.00023447409
+  "B_s->K^*::tchi_T1@G2026":    0.00041208157
+  "B_s->K^*::tchi_AT1@G2026":   0.00014785985
+
+posteriors:
+  - name: G4-bu-LCSR+LQCD+UB
+    global_options:
+      form-factors: G2026
+    fixed_parameters:
+      <<: *comm_fixed_params
+    prior:
+      - g4-bu-LCSR+LQCD+UB
+    likelihood:
+      - bu-unitarity-bounds
+      - Bpi-LCSR
+      - Bpi-LQCD
+      - BsK-LCSR
+      - BsK-LQCD
+      - BsKstar-LCSR
+      - BsKstar-LQCD
+
+
+predictions:
+  - name: Bpi-saturations
+    observables:
+      - name: "B->pi::Saturation[A0]@G"
+      - name: "B->pi::Saturation[V0]@G"
+      - name: "B->pi::Saturation[V1]@G"
+      - name: "B->pi::Saturation[A1]@G"
+      - name: "B->pi::Saturation[T1]@G"
+      - name: "B->pi::Saturation[AT1]@G"
+  - name: BsK-saturations
+    observables:
+      - name: "B_s->K::Saturation[A0]@G"
+      - name: "B_s->K::Saturation[V0]@G"
+      - name: "B_s->K::Saturation[V1]@G"
+      - name: "B_s->K::Saturation[A1]@G"
+      - name: "B_s->K::Saturation[T1]@G"
+      - name: "B_s->K::Saturation[AT1]@G"
+  - name: BsKstar-saturations
+    observables:
+      - name: "B_s->K^*::Saturation[A0]@G"
+      - name: "B_s->K^*::Saturation[V0]@G"
+      - name: "B_s->K^*::Saturation[V1]@G"
+      - name: "B_s->K^*::Saturation[A1]@G"
+      - name: "B_s->K^*::Saturation[T1]@G"
+      - name: "B_s->K^*::Saturation[AT1]@G"
+  - name: bu-saturations
+    observables:
+      - name: "b->u::Saturation[A0]@G"
+      - name: "b->u::Saturation[V0]@G"
+      - name: "b->u::Saturation[V1]@G"
+      - name: "b->u::Saturation[A1]@G"
+      - name: "b->u::Saturation[T1]@G"
+      - name: "b->u::Saturation[AT1]@G"
+
+  - name: Bpi-f+
+    observables:
+      - name: B->pi::f_+(q2)
+        kinematics: &Bpi-q2 [
+          { q2: -15.25 }, { q2: -15.00 }, { q2: -14.00 }, { q2: -13.00 },
+          { q2: -12.00 }, { q2: -11.00 }, { q2: -10.00 }, { q2:  -9.00 },
+          { q2:  -8.00 }, { q2:  -7.00 }, { q2:  -6.00 }, { q2:  -5.00 },
+          { q2:  -4.00 }, { q2:  -3.00 }, { q2:  -2.00 }, { q2:  -1.00 },
+          { q2:   0.00 }, { q2:   1.00 }, { q2:   2.00 }, { q2:   3.00 },
+          { q2:   4.00 }, { q2:   5.00 }, { q2:   6.00 }, { q2:   7.00 },
+          { q2:   8.00 }, { q2:   9.00 }, { q2:  10.00 }, { q2:  11.00 },
+          { q2:  12.00 }, { q2:  13.00 }, { q2:  14.00 }, { q2:  15.00 },
+          { q2:  16.00 }, { q2:  17.00 }, { q2:  18.00 }, { q2:  19.00 },
+          { q2:  20.00 }, { q2:  21.00 }, { q2:  22.00 }, { q2:  23.00 },
+          { q2:  24.00 }, { q2:  25.00 }, { q2:  26.00 }, { q2:  26.460 }
+        ]
+
+  - name: Bpi-f0
+    observables:
+      - name: B->pi::f_0(q2)
+        kinematics: *Bpi-q2
+
+  - name: Bpi-fT
+    observables:
+      - name: B->pi::f_T(q2)
+        kinematics: *Bpi-q2
+
+  - name: BsK-f+
+    observables:
+      - name: B_s->K::f_+(q2)
+        kinematics: &BsK-q2 [
+          { q2: -15.25 }, { q2: -15.00 }, { q2: -14.00 }, { q2: -13.00 },
+          { q2: -12.00 }, { q2: -11.00 }, { q2: -10.00 }, { q2:  -9.00 },
+          { q2:  -8.00 }, { q2:  -7.00 }, { q2:  -6.00 }, { q2:  -5.00 },
+          { q2:  -4.00 }, { q2:  -3.00 }, { q2:  -2.00 }, { q2:  -1.00 },
+          { q2:   0.00 }, { q2:   1.00 }, { q2:   2.00 }, { q2:   3.00 },
+          { q2:   4.00 }, { q2:   5.00 }, { q2:   6.00 }, { q2:   7.00 },
+          { q2:   8.00 }, { q2:   9.00 }, { q2:  10.00 }, { q2:  11.00 },
+          { q2:  12.00 }, { q2:  13.00 }, { q2:  14.00 }, { q2:  15.00 },
+          { q2:  16.00 }, { q2:  17.00 }, { q2:  18.00 }, { q2:  19.00 },
+          { q2:  20.00 }, { q2:  21.00 }, { q2:  22.00 }, { q2:  23.00 },
+          { q2:  23.746 }
+        ]
+
+  - name: BsK-f0
+    observables:
+      - name: B_s->K::f_0(q2)
+        kinematics: *BsK-q2
+
+  - name: BsK-fT
+    observables:
+      - name: B_s->K::f_T(q2)
+        kinematics: *BsK-q2
+
+  - name: BsKstar-V
+    observables:
+      - name: B_s->K^*::V(q2)
+        kinematics: &BsKstar-q2 [
+          { q2: -15.25 }, { q2: -15.00 }, { q2: -14.00 }, { q2: -13.00 },
+          { q2: -12.00 }, { q2: -11.00 }, { q2: -10.00 }, { q2:  -9.00 },
+          { q2:  -8.00 }, { q2:  -7.00 }, { q2:  -6.00 }, { q2:  -5.00 },
+          { q2:  -4.00 }, { q2:  -3.00 }, { q2:  -2.00 }, { q2:  -1.00 },
+          { q2:   0.00 }, { q2:   1.00 }, { q2:   2.00 }, { q2:   3.00 },
+          { q2:   4.00 }, { q2:   5.00 }, { q2:   6.00 }, { q2:   7.00 },
+          { q2:   8.00 }, { q2:   9.00 }, { q2:  10.00 }, { q2:  11.00 },
+          { q2:  12.00 }, { q2:  13.00 }, { q2:  14.00 }, { q2:  15.00 },
+          { q2:  16.00 }, { q2:  17.00 }, { q2:  18.00 }, { q2:  19.00 },
+          { q2:  20.025 }
+        ]
+
+  - name: BsKstar-A0
+    observables:
+      - name: B_s->K^*::A_0(q2)
+        kinematics: *BsKstar-q2
+
+  - name: BsKstar-A1
+    observables:
+      - name: B_s->K^*::A_1(q2)
+        kinematics: *BsKstar-q2
+
+  - name: BsKstar-A12
+    observables:
+      - name: B_s->K^*::A_12(q2)
+        kinematics: *BsKstar-q2
+
+  - name: BsKstar-T1
+    observables:
+      - name: B_s->K^*::T_1(q2)
+        kinematics: *BsKstar-q2
+
+  - name: BsKstar-T2
+    observables:
+      - name: B_s->K^*::T_2(q2)
+        kinematics: *BsKstar-q2
+
+  - name: BsKstar-T23
+    observables:
+      - name: B_s->K^*::T_23(q2)
+        kinematics: *BsKstar-q2

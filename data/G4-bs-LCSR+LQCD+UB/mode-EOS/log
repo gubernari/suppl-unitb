@@ -1,0 +1,343 @@
+2026-05-07 23:08:29,867 INFO       Creating analysis with 76 priors, 11 EOS-wide constraints, 1 global options, 6 manually-entered constraints and 38 fixed parameters.
+2026-05-07 23:08:29,868 DEBUG      priors:
+2026-05-07 23:08:29,868 DEBUG       - B->K::a^f+_0@G2026 (uniform)
+2026-05-07 23:08:29,868 DEBUG       - B->K::a^f+_1@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f+_2@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f+_3@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f+_4@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f0_1@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f0_2@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f0_3@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^f0_4@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^fT_0@G2026 (uniform)
+2026-05-07 23:08:29,869 DEBUG       - B->K::a^fT_1@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K::a^fT_2@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K::a^fT_3@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K::a^fT_4@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^V_0@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^V_1@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^V_2@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^V_3@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^V_4@G2026 (uniform)
+2026-05-07 23:08:29,870 DEBUG       - B->K^*::a^A0_0@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A0_1@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A0_2@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A0_3@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A0_4@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A1_1@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A1_2@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A1_3@G2026 (uniform)
+2026-05-07 23:08:29,871 DEBUG       - B->K^*::a^A1_4@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^A12_1@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^A12_2@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^A12_3@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^A12_4@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^T1_0@G2026 (uniform)
+2026-05-07 23:08:29,872 DEBUG       - B->K^*::a^T1_1@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T1_2@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T1_3@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T1_4@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T2_1@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T2_2@G2026 (uniform)
+2026-05-07 23:08:29,873 DEBUG       - B->K^*::a^T2_3@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B->K^*::a^T2_4@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B->K^*::a^T23_1@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B->K^*::a^T23_2@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B->K^*::a^T23_3@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B->K^*::a^T23_4@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B_s->phi::a^V_0@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B_s->phi::a^V_1@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B_s->phi::a^V_2@G2026 (uniform)
+2026-05-07 23:08:29,874 DEBUG       - B_s->phi::a^V_3@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^V_4@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A0_0@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A0_1@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A0_2@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A0_3@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A0_4@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A1_1@G2026 (uniform)
+2026-05-07 23:08:29,875 DEBUG       - B_s->phi::a^A1_2@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A1_3@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A1_4@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A12_1@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A12_2@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A12_3@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^A12_4@G2026 (uniform)
+2026-05-07 23:08:29,876 DEBUG       - B_s->phi::a^T1_0@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T1_1@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T1_2@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T1_3@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T1_4@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T2_1@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T2_2@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T2_3@G2026 (uniform)
+2026-05-07 23:08:29,877 DEBUG       - B_s->phi::a^T2_4@G2026 (uniform)
+2026-05-07 23:08:29,878 DEBUG       - B_s->phi::a^T23_1@G2026 (uniform)
+2026-05-07 23:08:29,878 DEBUG       - B_s->phi::a^T23_2@G2026 (uniform)
+2026-05-07 23:08:29,878 DEBUG       - B_s->phi::a^T23_3@G2026 (uniform)
+2026-05-07 23:08:29,878 DEBUG       - B_s->phi::a^T23_4@G2026 (uniform)
+2026-05-07 23:08:29,878 DEBUG      constraints:
+2026-05-07 23:08:29,878 DEBUG       - B->K::f_0+f_++f_T@HPQCD:2013A
+2026-05-07 23:08:29,878 DEBUG       - B->K::f_0+f_++f_T@FNAL+MILC:2015D
+2026-05-07 23:08:29,878 DEBUG       - B->K::f_0+f_++f_T@HPQCD:2022A
+2026-05-07 23:08:29,878 DEBUG       - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GRvDV:2022A
+2026-05-07 23:08:29,879 DEBUG       - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A
+2026-05-07 23:08:29,879 DEBUG       - B->K^*::V+A_0+A_1+A_12@HLMW:2015A
+2026-05-07 23:08:29,879 DEBUG       - B->K^*::T_1+T_2+T_23@HLMW:2015A
+2026-05-07 23:08:29,879 DEBUG       - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A
+2026-05-07 23:08:29,879 DEBUG       - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A
+2026-05-07 23:08:29,879 DEBUG       - B_s->phi::V+A_0+A_1+A_12@HLMW:2015A
+2026-05-07 23:08:29,879 DEBUG       - B_s->phi::T_1+T_2+T_23@HLMW:2015A
+2026-05-07 23:08:29,879 DEBUG      manual_constraints:
+2026-05-07 23:08:29,879 DEBUG       - b->s::MesonicBound[A0]@G
+2026-05-07 23:08:29,880 DEBUG       - b->s::MesonicBound[V0]@G
+2026-05-07 23:08:29,880 DEBUG       - b->s::MesonicBound[V1]@G
+2026-05-07 23:08:29,880 DEBUG       - b->s::MesonicBound[A1]@G
+2026-05-07 23:08:29,880 DEBUG       - b->s::MesonicBound[T1]@G
+2026-05-07 23:08:29,880 DEBUG       - b->s::MesonicBound[AT1]@G
+2026-05-07 23:08:29,880 DEBUG      fixed_parameters:
+2026-05-07 23:08:29,881 DEBUG       - mass::B_d@BSZ2015
+2026-05-07 23:08:29,881 DEBUG       - mass::B_s@BSZ2015
+2026-05-07 23:08:29,881 DEBUG       - mass::K_d@BSZ2015
+2026-05-07 23:08:29,881 DEBUG       - mass::K_d^*@BSZ2015
+2026-05-07 23:08:29,881 DEBUG       - mass::phi@BSZ2015
+2026-05-07 23:08:29,881 DEBUG       - mass::B_s,A^0[1]@G2026
+2026-05-07 23:08:29,881 DEBUG       - mass::B_s,V^0[1]@G2026
+2026-05-07 23:08:29,881 DEBUG       - mass::B_s,V^1[1]@G2026
+2026-05-07 23:08:29,881 DEBUG       - mass::B_s,A^1[1]@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K::Q2@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K::eta@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K::t0_v@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K::tp_v@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K^*::Q2@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K^*::eta@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K^*::t0_v@G2026
+2026-05-07 23:08:29,882 DEBUG       - B->K^*::t0_a@G2026
+2026-05-07 23:08:29,883 DEBUG       - B->K^*::tp_v@G2026
+2026-05-07 23:08:29,883 DEBUG       - B->K^*::tp_a@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::Q2@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::eta@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::t0_v@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::t0_a@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::tp_v@G2026
+2026-05-07 23:08:29,883 DEBUG       - B_s->phi::tp_a@G2026
+2026-05-07 23:08:29,883 DEBUG       - B->K::tchi_V0@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K::tchi_V1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K::tchi_T1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K^*::tchi_A0@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K^*::tchi_V1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K^*::tchi_A1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K^*::tchi_T1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B->K^*::tchi_AT1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B_s->phi::tchi_A0@G2026
+2026-05-07 23:08:29,884 DEBUG       - B_s->phi::tchi_V1@G2026
+2026-05-07 23:08:29,884 DEBUG       - B_s->phi::tchi_A1@G2026
+2026-05-07 23:08:29,885 DEBUG       - B_s->phi::tchi_T1@G2026
+2026-05-07 23:08:29,885 DEBUG       - B_s->phi::tchi_AT1@G2026
+2026-05-07 23:08:30,183 INPROGRESS Beginning minimization in 100 points
+2026-05-07 23:08:30,184 INFO       Using a starting point based on the existing importance samples
+2026-05-07 23:08:30,204 INFO       Using starting point [ 0.04208, -0.107, 0.01716, 0.03366, -0.4048, -0.03349, -0.05459, 0.07698, 0.06807, 0.0758, -0.1659, -0.1826, 0.2236, 0.5112, 0.1207, -0.4343, 0.5482, 0.1586, -0.008317, 0.1298, -0.3715, 0.5471, -0.3742, 0.4836, -0.0366, -0.002674, 0.02715, 0.07824, -0.01139, 0.02788, -0.008433, -0.04232, 0.07581, -0.2936, 0.2776, 0.279, -0.1791, -0.04709, 0.1293, -0.2828, -0.2202, -0.05261, 0.1492, -0.3806, -0.6122, 0.09125, -0.2999, 0.4494, 0.06554, -0.02572, 0.1091, -0.2477, 0.2249, -0.1373, -0.0142, -0.03473, -0.04675, 0.04629, 0.7877, -0.004897, -0.0207, -0.1505, -0.06242, 0.05758, -0.1864, 0.1462, 0.1613, 0.2921, -0.03233, -0.0475, 0.1409, 0.1122, -0.02442, -0.03854, 0.1738, 0.1672 ]
+2026-05-07 23:08:54,063 ERROR      Optimization did not succeed
+2026-05-07 23:08:54,063 ERROR        optimizer message reads: Iteration limit reached
+2026-05-07 23:08:54,067 INFO       First optimization finished
+2026-05-07 23:09:18,061 ERROR      Optimization did not succeed
+2026-05-07 23:09:18,062 ERROR        optimizer message reads: Iteration limit reached
+2026-05-07 23:09:42,523 ERROR      Optimization did not succeed
+2026-05-07 23:09:42,524 ERROR        optimizer message reads: Iteration limit reached
+2026-05-07 23:10:05,468 SUCCESS    Optimization goal achieved after 7266 function evaluations
+2026-05-07 23:10:08,621 SUCCESS    Optimization goal achieved after 1004 function evaluations
+2026-05-07 23:10:10,772 SUCCESS    Optimization goal achieved after 682 function evaluations
+2026-05-07 23:10:12,651 SUCCESS    Optimization goal achieved after 602 function evaluations
+2026-05-07 23:10:12,931 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:10:36,606 SUCCESS    Optimization goal achieved after 7439 function evaluations
+2026-05-07 23:10:37,953 SUCCESS    Optimization goal achieved after 431 function evaluations
+2026-05-07 23:10:38,468 SUCCESS    Optimization goal achieved after 170 function evaluations
+2026-05-07 23:10:53,722 SUCCESS    Optimization goal achieved after 4923 function evaluations
+2026-05-07 23:10:59,954 SUCCESS    Optimization goal achieved after 2001 function evaluations
+2026-05-07 23:11:16,805 SUCCESS    Optimization goal achieved after 5435 function evaluations
+2026-05-07 23:11:26,140 SUCCESS    Optimization goal achieved after 2987 function evaluations
+2026-05-07 23:11:38,426 SUCCESS    Optimization goal achieved after 3979 function evaluations
+2026-05-07 23:11:42,683 SUCCESS    Optimization goal achieved after 1375 function evaluations
+2026-05-07 23:11:43,765 SUCCESS    Optimization goal achieved after 344 function evaluations
+2026-05-07 23:11:54,017 SUCCESS    Optimization goal achieved after 3100 function evaluations
+2026-05-07 23:12:07,600 SUCCESS    Optimization goal achieved after 4024 function evaluations
+2026-05-07 23:12:09,874 SUCCESS    Optimization goal achieved after 675 function evaluations
+2026-05-07 23:12:26,981 SUCCESS    Optimization goal achieved after 5139 function evaluations
+2026-05-07 23:12:32,881 SUCCESS    Optimization goal achieved after 1775 function evaluations
+2026-05-07 23:12:33,183 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:12:33,757 SUCCESS    Optimization goal achieved after 170 function evaluations
+2026-05-07 23:12:34,043 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:12:36,034 SUCCESS    Optimization goal achieved after 598 function evaluations
+2026-05-07 23:12:38,036 SUCCESS    Optimization goal achieved after 600 function evaluations
+2026-05-07 23:12:41,432 SUCCESS    Optimization goal achieved after 1027 function evaluations
+2026-05-07 23:12:45,410 SUCCESS    Optimization goal achieved after 1195 function evaluations
+2026-05-07 23:12:45,704 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:12:48,788 SUCCESS    Optimization goal achieved after 941 function evaluations
+2026-05-07 23:12:51,539 SUCCESS    Optimization goal achieved after 855 function evaluations
+2026-05-07 23:12:51,813 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:05,211 SUCCESS    Optimization goal achieved after 4248 function evaluations
+2026-05-07 23:13:18,237 SUCCESS    Optimization goal achieved after 4422 function evaluations
+2026-05-07 23:13:18,513 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:19,508 SUCCESS    Optimization goal achieved after 343 function evaluations
+2026-05-07 23:13:22,318 SUCCESS    Optimization goal achieved after 951 function evaluations
+2026-05-07 23:13:26,973 SUCCESS    Optimization goal achieved after 1541 function evaluations
+2026-05-07 23:13:27,250 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:28,565 SUCCESS    Optimization goal achieved after 433 function evaluations
+2026-05-07 23:13:32,503 SUCCESS    Optimization goal achieved after 1281 function evaluations
+2026-05-07 23:13:32,786 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:33,067 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:34,135 SUCCESS    Optimization goal achieved after 341 function evaluations
+2026-05-07 23:13:41,547 SUCCESS    Optimization goal achieved after 2386 function evaluations
+2026-05-07 23:13:41,821 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:13:42,888 SUCCESS    Optimization goal achieved after 343 function evaluations
+2026-05-07 23:13:47,956 SUCCESS    Optimization goal achieved after 1631 function evaluations
+2026-05-07 23:13:59,117 SUCCESS    Optimization goal achieved after 3601 function evaluations
+2026-05-07 23:14:00,673 SUCCESS    Optimization goal achieved after 509 function evaluations
+2026-05-07 23:14:01,443 SUCCESS    Optimization goal achieved after 254 function evaluations
+2026-05-07 23:14:04,619 SUCCESS    Optimization goal achieved after 1025 function evaluations
+2026-05-07 23:14:08,316 SUCCESS    Optimization goal achieved after 1198 function evaluations
+2026-05-07 23:14:09,629 SUCCESS    Optimization goal achieved after 427 function evaluations
+2026-05-07 23:14:22,165 SUCCESS    Optimization goal achieved after 4115 function evaluations
+2026-05-07 23:14:31,977 SUCCESS    Optimization goal achieved after 3162 function evaluations
+2026-05-07 23:14:35,645 SUCCESS    Optimization goal achieved after 1204 function evaluations
+2026-05-07 23:14:35,924 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:14:38,027 SUCCESS    Optimization goal achieved after 681 function evaluations
+2026-05-07 23:14:43,803 SUCCESS    Optimization goal achieved after 1877 function evaluations
+2026-05-07 23:14:44,330 SUCCESS    Optimization goal achieved after 169 function evaluations
+2026-05-07 23:14:53,137 SUCCESS    Optimization goal achieved after 2817 function evaluations
+2026-05-07 23:15:02,528 SUCCESS    Optimization goal achieved after 2984 function evaluations
+2026-05-07 23:15:03,857 SUCCESS    Optimization goal achieved after 429 function evaluations
+2026-05-07 23:15:05,702 SUCCESS    Optimization goal achieved after 600 function evaluations
+2026-05-07 23:15:06,469 SUCCESS    Optimization goal achieved after 257 function evaluations
+2026-05-07 23:15:08,026 SUCCESS    Optimization goal achieved after 516 function evaluations
+2026-05-07 23:15:09,565 SUCCESS    Optimization goal achieved after 516 function evaluations
+2026-05-07 23:15:10,081 SUCCESS    Optimization goal achieved after 170 function evaluations
+2026-05-07 23:15:10,347 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:15:13,696 SUCCESS    Optimization goal achieved after 1111 function evaluations
+2026-05-07 23:15:16,275 SUCCESS    Optimization goal achieved after 854 function evaluations
+2026-05-07 23:15:18,646 SUCCESS    Optimization goal achieved after 771 function evaluations
+2026-05-07 23:15:22,556 SUCCESS    Optimization goal achieved after 1278 function evaluations
+2026-05-07 23:15:25,659 SUCCESS    Optimization goal achieved after 1022 function evaluations
+2026-05-07 23:15:34,004 SUCCESS    Optimization goal achieved after 2693 function evaluations
+2026-05-07 23:15:37,362 SUCCESS    Optimization goal achieved after 1113 function evaluations
+2026-05-07 23:15:42,773 SUCCESS    Optimization goal achieved after 1792 function evaluations
+2026-05-07 23:15:43,550 SUCCESS    Optimization goal achieved after 254 function evaluations
+2026-05-07 23:15:44,307 SUCCESS    Optimization goal achieved after 259 function evaluations
+2026-05-07 23:15:46,663 SUCCESS    Optimization goal achieved after 772 function evaluations
+2026-05-07 23:15:50,295 SUCCESS    Optimization goal achieved after 1200 function evaluations
+2026-05-07 23:15:52,144 SUCCESS    Optimization goal achieved after 592 function evaluations
+2026-05-07 23:15:55,465 SUCCESS    Optimization goal achieved after 1034 function evaluations
+2026-05-07 23:15:56,819 SUCCESS    Optimization goal achieved after 430 function evaluations
+2026-05-07 23:16:01,516 SUCCESS    Optimization goal achieved after 1455 function evaluations
+2026-05-07 23:16:01,805 SUCCESS    Optimization goal achieved after 88 function evaluations
+2026-05-07 23:16:07,689 SUCCESS    Optimization goal achieved after 1791 function evaluations
+2026-05-07 23:16:11,342 SUCCESS    Optimization goal achieved after 1117 function evaluations
+2026-05-07 23:16:14,169 SUCCESS    Optimization goal achieved after 855 function evaluations
+2026-05-07 23:16:15,886 SUCCESS    Optimization goal achieved after 520 function evaluations
+2026-05-07 23:16:20,407 SUCCESS    Optimization goal achieved after 1366 function evaluations
+2026-05-07 23:16:28,845 SUCCESS    Optimization goal achieved after 2559 function evaluations
+2026-05-07 23:16:31,312 SUCCESS    Optimization goal achieved after 763 function evaluations
+2026-05-07 23:16:35,245 SUCCESS    Optimization goal achieved after 1189 function evaluations
+2026-05-07 23:16:45,092 SUCCESS    Optimization goal achieved after 3060 function evaluations
+2026-05-07 23:16:48,600 SUCCESS    Optimization goal achieved after 1108 function evaluations
+2026-05-07 23:16:49,138 SUCCESS    Optimization goal achieved after 170 function evaluations
+2026-05-07 23:16:49,142 COMPLETED  ... optimization finished
+2026-05-07 23:16:49,143 INFO       The best-fit point is:
+2026-05-07 23:16:49,143 INFO         - B->K::a^f+_0@G2026 -> 0.04203599304466539
+2026-05-07 23:16:49,143 INFO         - B->K::a^f+_1@G2026 -> -0.11065329607063143
+2026-05-07 23:16:49,144 INFO         - B->K::a^f+_2@G2026 -> 0.014100820671165144
+2026-05-07 23:16:49,144 INFO         - B->K::a^f+_3@G2026 -> 0.07345182610736503
+2026-05-07 23:16:49,144 INFO         - B->K::a^f+_4@G2026 -> 0.1955914208271492
+2026-05-07 23:16:49,145 INFO         - B->K::a^f0_1@G2026 -> -0.0318679629251993
+2026-05-07 23:16:49,146 INFO         - B->K::a^f0_2@G2026 -> -0.05794859994382409
+2026-05-07 23:16:49,146 INFO         - B->K::a^f0_3@G2026 -> -0.02758263961236046
+2026-05-07 23:16:49,146 INFO         - B->K::a^f0_4@G2026 -> -0.04900101970951409
+2026-05-07 23:16:49,147 INFO         - B->K::a^fT_0@G2026 -> 0.07750771558314012
+2026-05-07 23:16:49,147 INFO         - B->K::a^fT_1@G2026 -> -0.1514875218740424
+2026-05-07 23:16:49,147 INFO         - B->K::a^fT_2@G2026 -> -0.029458395892115186
+2026-05-07 23:16:49,148 INFO         - B->K::a^fT_3@G2026 -> 0.3071177845594484
+2026-05-07 23:16:49,148 INFO         - B->K::a^fT_4@G2026 -> -0.3466923926734049
+2026-05-07 23:16:49,149 INFO         - B->K^*::a^V_0@G2026 -> 0.11842847191492367
+2026-05-07 23:16:49,149 INFO         - B->K^*::a^V_1@G2026 -> -0.4062800631375401
+2026-05-07 23:16:49,149 INFO         - B->K^*::a^V_2@G2026 -> 0.6070374169868551
+2026-05-07 23:16:49,150 INFO         - B->K^*::a^V_3@G2026 -> -0.14266033261259825
+2026-05-07 23:16:49,150 INFO         - B->K^*::a^V_4@G2026 -> -0.3488012726903027
+2026-05-07 23:16:49,150 INFO         - B->K^*::a^A0_0@G2026 -> 0.12972409234489007
+2026-05-07 23:16:49,151 INFO         - B->K^*::a^A0_1@G2026 -> -0.39480421838286606
+2026-05-07 23:16:49,152 INFO         - B->K^*::a^A0_2@G2026 -> 0.3230241934247822
+2026-05-07 23:16:49,152 INFO         - B->K^*::a^A0_3@G2026 -> 0.21303150450304376
+2026-05-07 23:16:49,152 INFO         - B->K^*::a^A0_4@G2026 -> 0.014632449220326915
+2026-05-07 23:16:49,153 INFO         - B->K^*::a^A1_1@G2026 -> -0.046290105760669185
+2026-05-07 23:16:49,153 INFO         - B->K^*::a^A1_2@G2026 -> 0.061806316870754635
+2026-05-07 23:16:49,153 INFO         - B->K^*::a^A1_3@G2026 -> -0.07964023515471208
+2026-05-07 23:16:49,154 INFO         - B->K^*::a^A1_4@G2026 -> -0.2834095520389557
+2026-05-07 23:16:49,154 INFO         - B->K^*::a^A12_1@G2026 -> -0.0112004842442076
+2026-05-07 23:16:49,155 INFO         - B->K^*::a^A12_2@G2026 -> 0.026898091830903234
+2026-05-07 23:16:49,155 INFO         - B->K^*::a^A12_3@G2026 -> -0.39430257738915075
+2026-05-07 23:16:49,155 INFO         - B->K^*::a^A12_4@G2026 -> 0.3364475949075838
+2026-05-07 23:16:49,156 INFO         - B->K^*::a^T1_0@G2026 -> 0.074801757868208
+2026-05-07 23:16:49,156 INFO         - B->K^*::a^T1_1@G2026 -> -0.30119593187414495
+2026-05-07 23:16:49,156 INFO         - B->K^*::a^T1_2@G2026 -> 0.38051482486767507
+2026-05-07 23:16:49,156 INFO         - B->K^*::a^T1_3@G2026 -> 0.26905917071948193
+2026-05-07 23:16:49,157 INFO         - B->K^*::a^T1_4@G2026 -> -0.4826184953694236
+2026-05-07 23:16:49,158 INFO         - B->K^*::a^T2_1@G2026 -> -0.04199210643142037
+2026-05-07 23:16:49,158 INFO         - B->K^*::a^T2_2@G2026 -> 0.0931398860314911
+2026-05-07 23:16:49,158 INFO         - B->K^*::a^T2_3@G2026 -> -0.22187857553834656
+2026-05-07 23:16:49,159 INFO         - B->K^*::a^T2_4@G2026 -> -0.031469469412109596
+2026-05-07 23:16:49,159 INFO         - B->K^*::a^T23_1@G2026 -> -0.030366957418973294
+2026-05-07 23:16:49,159 INFO         - B->K^*::a^T23_2@G2026 -> 0.17153682281119914
+2026-05-07 23:16:49,160 INFO         - B->K^*::a^T23_3@G2026 -> -0.8216279107112354
+2026-05-07 23:16:49,161 INFO         - B->K^*::a^T23_4@G2026 -> -0.08403338412768924
+2026-05-07 23:16:49,161 INFO         - B_s->phi::a^V_0@G2026 -> 0.09025438590940105
+2026-05-07 23:16:49,162 INFO         - B_s->phi::a^V_1@G2026 -> -0.2876022220500685
+2026-05-07 23:16:49,163 INFO         - B_s->phi::a^V_2@G2026 -> 0.39822257514330434
+2026-05-07 23:16:49,163 INFO         - B_s->phi::a^V_3@G2026 -> -0.013659966282050573
+2026-05-07 23:16:49,163 INFO         - B_s->phi::a^V_4@G2026 -> 0.05472186671622892
+2026-05-07 23:16:49,164 INFO         - B_s->phi::a^A0_0@G2026 -> 0.1061707263550479
+2026-05-07 23:16:49,164 INFO         - B_s->phi::a^A0_1@G2026 -> -0.31146326173466665
+2026-05-07 23:16:49,165 INFO         - B_s->phi::a^A0_2@G2026 -> 0.5030676856008977
+2026-05-07 23:16:49,165 INFO         - B_s->phi::a^A0_3@G2026 -> -0.5271208815283321
+2026-05-07 23:16:49,165 INFO         - B_s->phi::a^A0_4@G2026 -> -0.19678997120709496
+2026-05-07 23:16:49,166 INFO         - B_s->phi::a^A1_1@G2026 -> -0.0378723350414938
+2026-05-07 23:16:49,166 INFO         - B_s->phi::a^A1_2@G2026 -> 0.11475988832476242
+2026-05-07 23:16:49,166 INFO         - B_s->phi::a^A1_3@G2026 -> -0.5353425203940657
+2026-05-07 23:16:49,167 INFO         - B_s->phi::a^A1_4@G2026 -> 0.14227081865067048
+2026-05-07 23:16:49,167 INFO         - B_s->phi::a^A12_1@G2026 -> -0.011106614862510336
+2026-05-07 23:16:49,167 INFO         - B_s->phi::a^A12_2@G2026 -> 0.03367634582884499
+2026-05-07 23:16:49,168 INFO         - B_s->phi::a^A12_3@G2026 -> -0.24073381749384304
+2026-05-07 23:16:49,168 INFO         - B_s->phi::a^A12_4@G2026 -> -0.5057424057874864
+2026-05-07 23:16:49,168 INFO         - B_s->phi::a^T1_0@G2026 -> 0.055870944180410685
+2026-05-07 23:16:49,169 INFO         - B_s->phi::a^T1_1@G2026 -> -0.21117634050925815
+2026-05-07 23:16:49,169 INFO         - B_s->phi::a^T1_2@G2026 -> 0.2378915922698724
+2026-05-07 23:16:49,169 INFO         - B_s->phi::a^T1_3@G2026 -> 0.32017486432315667
+2026-05-07 23:16:49,170 INFO         - B_s->phi::a^T1_4@G2026 -> -0.05022922845451028
+2026-05-07 23:16:49,170 INFO         - B_s->phi::a^T2_1@G2026 -> -0.0351229245021767
+2026-05-07 23:16:49,170 INFO         - B_s->phi::a^T2_2@G2026 -> 0.06476941801795338
+2026-05-07 23:16:49,171 INFO         - B_s->phi::a^T2_3@G2026 -> 0.011348487059520629
+2026-05-07 23:16:49,172 INFO         - B_s->phi::a^T2_4@G2026 -> -0.09342021059617323
+2026-05-07 23:16:49,172 INFO         - B_s->phi::a^T23_1@G2026 -> -0.02097993725629929
+2026-05-07 23:16:49,173 INFO         - B_s->phi::a^T23_2@G2026 -> 0.11296990046962255
+2026-05-07 23:16:49,173 INFO         - B_s->phi::a^T23_3@G2026 -> -0.352583877958361
+2026-05-07 23:16:49,174 INFO         - B_s->phi::a^T23_4@G2026 -> -0.2721753782423332
+2026-05-07 23:16:49,174 INFO       total chi^2 = 59.79
+2026-05-07 23:16:49,174 INFO       total dof   = 158
+2026-05-07 23:16:49,176 INFO       p value     = 100.00%
+2026-05-07 23:16:49,176 INFO       individual test statistics:
+2026-05-07 23:16:49,177 INFO         - B->K::f_0+f_++f_T@FNAL+MILC:2015D: chi^2 / dof = 0.32 / 9, local_pvalue = 100.00%
+2026-05-07 23:16:49,178 INFO         - B->K::f_0+f_++f_T@HPQCD:2013A: chi^2 / dof = 5.72 / 9, local_pvalue = 76.72%
+2026-05-07 23:16:49,179 INFO         - B->K::f_0+f_++f_T@HPQCD:2022A: chi^2 / dof = 1.34 / 8, local_pvalue = 99.50%
+2026-05-07 23:16:49,180 INFO         - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A: chi^2 / dof = 1.44 / 19, local_pvalue = 100.00%
+2026-05-07 23:16:49,181 INFO         - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GRvDV:2022A: chi^2 / dof = 1.76 / 33, local_pvalue = 100.00%
+2026-05-07 23:16:49,182 INFO         - B->K^*::T_1+T_2+T_23@HLMW:2015A: chi^2 / dof = 16.67 / 36, local_pvalue = 99.76%
+2026-05-07 23:16:49,183 INFO         - B->K^*::V+A_0+A_1+A_12@HLMW:2015A: chi^2 / dof = 26.20 / 48, local_pvalue = 99.56%
+2026-05-07 23:16:49,183 INFO         - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A: chi^2 / dof = 2.38 / 19, local_pvalue = 100.00%
+2026-05-07 23:16:49,184 INFO         - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A: chi^2 / dof = 2.38 / 33, local_pvalue = 100.00%
+2026-05-07 23:16:49,185 INFO         - B_s->phi::T_1+T_2+T_23@HLMW:2015A: chi^2 / dof = 0.20 / 6, local_pvalue = 99.98%
+2026-05-07 23:16:49,185 INFO         - B_s->phi::V+A_0+A_1+A_12@HLMW:2015A: chi^2 / dof = 1.37 / 8, local_pvalue = 99.46%
+2026-05-07 23:16:49,186 INFO         - b->s::MesonicBound[A0]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 99.07%
+2026-05-07 23:16:49,187 INFO         - b->s::MesonicBound[A1]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 99.08%
+2026-05-07 23:16:49,188 INFO         - b->s::MesonicBound[AT1]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 98.13%
+2026-05-07 23:16:49,189 INFO         - b->s::MesonicBound[T1]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 99.83%
+2026-05-07 23:16:49,189 INFO         - b->s::MesonicBound[V0]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 100.00%
+2026-05-07 23:16:49,190 INFO         - b->s::MesonicBound[V1]@G: chi^2 / dof = 0.00 / 1, local_pvalue = 99.87%
+2026-05-07 23:16:49,200 SUCCESS    Final p value is 100.00%, indicating a successful fit

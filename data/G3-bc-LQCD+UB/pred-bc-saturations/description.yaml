@@ -1,0 +1,27 @@
+observables:
+- kinematics: {}
+  name: b->c::Saturation[A0]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: b->c::Saturation[V0]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: b->c::Saturation[V1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: b->c::Saturation[A1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: b->c::Saturation[T1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: b->c::Saturation[AT1]@G
+  options:
+    form-factors: G2026
+type: Prediction
+version: 1.0.20

@@ -1,0 +1,138 @@
+2026-05-07 22:56:29,562 INFO       Creating analysis with 76 priors, 11 EOS-wide constraints, 1 global options, 6 manually-entered constraints and 38 fixed parameters.
+2026-05-07 22:56:29,562 DEBUG      priors:
+2026-05-07 22:56:29,562 DEBUG       - B->K::a^f+_0@G2026 (uniform)
+2026-05-07 22:56:29,562 DEBUG       - B->K::a^f+_1@G2026 (uniform)
+2026-05-07 22:56:29,562 DEBUG       - B->K::a^f+_2@G2026 (uniform)
+2026-05-07 22:56:29,562 DEBUG       - B->K::a^f+_3@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^f+_4@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^f0_1@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^f0_2@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^f0_3@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^f0_4@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^fT_0@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^fT_1@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^fT_2@G2026 (uniform)
+2026-05-07 22:56:29,563 DEBUG       - B->K::a^fT_3@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K::a^fT_4@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^V_0@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^V_1@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^V_2@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^V_3@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^V_4@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^A0_0@G2026 (uniform)
+2026-05-07 22:56:29,564 DEBUG       - B->K^*::a^A0_1@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A0_2@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A0_3@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A0_4@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A1_1@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A1_2@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A1_3@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A1_4@G2026 (uniform)
+2026-05-07 22:56:29,565 DEBUG       - B->K^*::a^A12_1@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^A12_2@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^A12_3@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^A12_4@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T1_0@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T1_1@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T1_2@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T1_3@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T1_4@G2026 (uniform)
+2026-05-07 22:56:29,566 DEBUG       - B->K^*::a^T2_1@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T2_2@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T2_3@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T2_4@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T23_1@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T23_2@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T23_3@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B->K^*::a^T23_4@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B_s->phi::a^V_0@G2026 (uniform)
+2026-05-07 22:56:29,567 DEBUG       - B_s->phi::a^V_1@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^V_2@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^V_3@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^V_4@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^A0_0@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^A0_1@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^A0_2@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^A0_3@G2026 (uniform)
+2026-05-07 22:56:29,568 DEBUG       - B_s->phi::a^A0_4@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A1_1@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A1_2@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A1_3@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A1_4@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A12_1@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A12_2@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A12_3@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^A12_4@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T1_0@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T1_1@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T1_2@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T1_3@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T1_4@G2026 (uniform)
+2026-05-07 22:56:29,569 DEBUG       - B_s->phi::a^T2_1@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T2_2@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T2_3@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T2_4@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T23_1@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T23_2@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T23_3@G2026 (uniform)
+2026-05-07 22:56:29,570 DEBUG       - B_s->phi::a^T23_4@G2026 (uniform)
+2026-05-07 22:56:29,571 DEBUG      constraints:
+2026-05-07 22:56:29,571 DEBUG       - B->K::f_0+f_++f_T@HPQCD:2013A
+2026-05-07 22:56:29,571 DEBUG       - B->K::f_0+f_++f_T@FNAL+MILC:2015D
+2026-05-07 22:56:29,571 DEBUG       - B->K::f_0+f_++f_T@HPQCD:2022A
+2026-05-07 22:56:29,571 DEBUG       - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GRvDV:2022A
+2026-05-07 22:56:29,571 DEBUG       - B->K^*::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A
+2026-05-07 22:56:29,571 DEBUG       - B->K^*::V+A_0+A_1+A_12@HLMW:2015A
+2026-05-07 22:56:29,571 DEBUG       - B->K^*::T_1+T_2+T_23@HLMW:2015A
+2026-05-07 22:56:29,572 DEBUG       - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@GvDV:2020A
+2026-05-07 22:56:29,572 DEBUG       - B_s->phi::FormFactors[A_0,A_1,A_2,V,T_1,T_2,T_23]@BSZ:2015A
+2026-05-07 22:56:29,572 DEBUG       - B_s->phi::V+A_0+A_1+A_12@HLMW:2015A
+2026-05-07 22:56:29,572 DEBUG       - B_s->phi::T_1+T_2+T_23@HLMW:2015A
+2026-05-07 22:56:29,572 DEBUG      manual_constraints:
+2026-05-07 22:56:29,572 DEBUG       - b->s::MesonicBound[A0]@G
+2026-05-07 22:56:29,572 DEBUG       - b->s::MesonicBound[V0]@G
+2026-05-07 22:56:29,572 DEBUG       - b->s::MesonicBound[V1]@G
+2026-05-07 22:56:29,572 DEBUG       - b->s::MesonicBound[A1]@G
+2026-05-07 22:56:29,573 DEBUG       - b->s::MesonicBound[T1]@G
+2026-05-07 22:56:29,573 DEBUG       - b->s::MesonicBound[AT1]@G
+2026-05-07 22:56:29,573 DEBUG      fixed_parameters:
+2026-05-07 22:56:29,573 DEBUG       - mass::B_d@BSZ2015
+2026-05-07 22:56:29,573 DEBUG       - mass::B_s@BSZ2015
+2026-05-07 22:56:29,573 DEBUG       - mass::K_d@BSZ2015
+2026-05-07 22:56:29,574 DEBUG       - mass::K_d^*@BSZ2015
+2026-05-07 22:56:29,574 DEBUG       - mass::phi@BSZ2015
+2026-05-07 22:56:29,574 DEBUG       - mass::B_s,A^0[1]@G2026
+2026-05-07 22:56:29,574 DEBUG       - mass::B_s,V^0[1]@G2026
+2026-05-07 22:56:29,574 DEBUG       - mass::B_s,V^1[1]@G2026
+2026-05-07 22:56:29,574 DEBUG       - mass::B_s,A^1[1]@G2026
+2026-05-07 22:56:29,574 DEBUG       - B->K::Q2@G2026
+2026-05-07 22:56:29,574 DEBUG       - B->K::eta@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K::t0_v@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K::tp_v@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::Q2@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::eta@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::t0_v@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::t0_a@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::tp_v@G2026
+2026-05-07 22:56:29,575 DEBUG       - B->K^*::tp_a@G2026
+2026-05-07 22:56:29,575 DEBUG       - B_s->phi::Q2@G2026
+2026-05-07 22:56:29,576 DEBUG       - B_s->phi::eta@G2026
+2026-05-07 22:56:29,576 DEBUG       - B_s->phi::t0_v@G2026
+2026-05-07 22:56:29,576 DEBUG       - B_s->phi::t0_a@G2026
+2026-05-07 22:56:29,576 DEBUG       - B_s->phi::tp_v@G2026
+2026-05-07 22:56:29,576 DEBUG       - B_s->phi::tp_a@G2026
+2026-05-07 22:56:29,576 DEBUG       - B->K::tchi_V0@G2026
+2026-05-07 22:56:29,576 DEBUG       - B->K::tchi_V1@G2026
+2026-05-07 22:56:29,576 DEBUG       - B->K::tchi_T1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B->K^*::tchi_A0@G2026
+2026-05-07 22:56:29,577 DEBUG       - B->K^*::tchi_V1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B->K^*::tchi_A1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B->K^*::tchi_T1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B->K^*::tchi_AT1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B_s->phi::tchi_A0@G2026
+2026-05-07 22:56:29,577 DEBUG       - B_s->phi::tchi_V1@G2026
+2026-05-07 22:56:29,577 DEBUG       - B_s->phi::tchi_A1@G2026
+2026-05-07 22:56:29,578 DEBUG       - B_s->phi::tchi_T1@G2026
+2026-05-07 22:56:29,578 DEBUG       - B_s->phi::tchi_AT1@G2026
+2026-05-07 22:56:29,888 INPROGRESS Predicting observables from set 'bs-saturations' for 34559 samples
+2026-05-07 22:56:38,815 COMPLETED  ... done

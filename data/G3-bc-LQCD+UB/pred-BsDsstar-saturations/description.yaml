@@ -1,0 +1,27 @@
+observables:
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[A0]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[V0]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[V1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[A1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[T1]@G
+  options:
+    form-factors: G2026
+- kinematics: {}
+  name: B_s->D_s^*::Saturation[AT1]@G
+  options:
+    form-factors: G2026
+type: Prediction
+version: 1.0.20
